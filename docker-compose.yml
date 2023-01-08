@@ -4,10 +4,10 @@ services:
   app:
     build:
       context: .
-      dockerfile: ./Dockerfile
+      dockerfile: ./app/Dockerfile
     privileged: true
     restart: always
     ports:
-      - '172.17.0.1:20580:80'
+      - '172.17.0.1:20580:5000'
     volumes:
       - ./app:/app
