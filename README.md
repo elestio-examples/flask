@@ -6,9 +6,9 @@ Click on the button below to deploy this repository with CI/CD on Elestio:
 
 <a href="https://dash.elest.io/deploy?source=cicd&social=Github&url=https://github.com/elestio-examples/flask"><img src="deploy-on-elestio.png" alt="Deploy on Elest.io" width="180px" /></a>
 
-<img src="fastapi.png" alt="fastapi logo" width="100%" />
+<img src="screenshot.jpeg" width="100%" />
 
-## Documentation: https://fastapi.tiangolo.com
+## Documentation: https://flask.palletsprojects.com/
 
 <br/>
 <br/>
