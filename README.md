@@ -23,6 +23,6 @@ git clone YOUR_REPOSITORY_URL
 
 ### Step 2: Make some changes and push
 
-Try to make some change in your FastApi project then push to the git repository
+Try to make some change in your Flask project then push to the git repository
 
 After few seconds to few minutes your change will be deployed on your CI/CD target 🚀
