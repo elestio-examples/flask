@@ -9,3 +9,5 @@ services:
     restart: always
     ports:
       - '172.17.0.1:20580:80'
+    volumes:
+      - ./app:/app
