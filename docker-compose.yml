@@ -8,6 +8,6 @@ services:
     privileged: true
     restart: always
     ports:
-      - '172.17.0.1:20580:5000'
+      - '172.17.0.1:20582:5000'
     volumes:
       - ./app:/app

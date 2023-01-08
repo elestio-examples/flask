@@ -302,7 +302,7 @@
 
   function getLatency() {
     var started = new Date().getTime();
-    var url = "172.17.0.1:5500?t=" + +new Date();
+    var url = "172.17.0.1:5000";
     fetch(url)
       .then(function (response) {
         var ended = new Date().getTime();
