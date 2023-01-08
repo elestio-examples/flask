@@ -239,15 +239,10 @@
     <!-- Site Metas -->
     <title>Elestio static example</title>
     <meta name="description" content="" />
-
-    <link rel="icon" type="image/png" href="../img/favicon.png" />
   </head>
 
   <body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
     <!-- Main content -->
-    <header class="app-header">
-      <img src="../img/elestio-logo.svg" alt="logo" />
-    </header>
 
     <div class="app-body">
       <div class="app-heading" style="margin-bottom: 40px">
@@ -307,7 +302,7 @@
 
   function getLatency() {
     var started = new Date().getTime();
-    var url = "../js/data.json?t=" + +new Date();
+    var url = new Date();
     fetch(url)
       .then(function (response) {
         var ended = new Date().getTime();
